@@ -21,28 +21,28 @@ Los unicos 2 comando de instalacion requerido, seria la instalacion del faker pa
 
 ```sh
 pip install Faker
+````
 
 ```sh
 sudo apt-get install python3-tk
-
+````
 
 
 
 ## Uso
 
-Explica cómo utilizar el proyecto una vez que esté instalado. Proporciona ejemplos de uso y describe las funcionalidades clave.
+El uso es bastante simple, una vez inicializada la aplicacion en la interfaz podras encontrar, 1 campo de texto y 2 botones.
+
+Si deseas simplemente correr la simulacion sera tan simple como presionar este boton, y en la consola se desarrollaran todos los 400 registros de los ascensores, ademas de que cuando este termine de ejecutar mostrara en el edificio impreso mas abjo el estado final de estey todos sus ascensores, si de lo contrario deseas ver como funcionan las peticiones manuales y la animacion del edificio, bastara con seleccionar un piso manualmente y presionar el boton 'Realzar Peticion'
 
 ## Ejemplos
 
-Aquí puedes mostrar ejemplos de código o casos de uso para ilustrar cómo utilizar el proyecto en situaciones reales.
+Puedes rapidamente seleccionar 2 destinos manualmente y ver como el edificio impreso abajo los 2 primeros ascensores realizan sus recorridos
 
-## Contribución
 
-Detalla cómo otros desarrolladores pueden contribuir al proyecto. Esto podría incluir información sobre cómo clonar el repositorio, proponer mejoras y enviar solicitudes de extracción.
 
-## Licencia
+## Documento con todos los Metodos y clases explicadas: 
 
-Indica la licencia bajo la cual se distribuye el proyecto. Es importante proporcionar claridad sobre cómo otros pueden utilizar y modificar tu código.
 
 ---
 
