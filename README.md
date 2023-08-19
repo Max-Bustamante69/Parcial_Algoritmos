@@ -42,6 +42,7 @@ Puedes rapidamente seleccionar 2 destinos manualmente y ver como el edificio imp
 
 
 ## Documento con todos los Metodos y clases explicadas: 
+https://docs.google.com/document/d/1ZgV_cWQLPKoeDFNl5emlaMcCuapuWikVBnrnxV6TEn4/edit?usp=sharing
 
 
 ---
