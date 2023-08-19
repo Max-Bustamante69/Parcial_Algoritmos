@@ -11,7 +11,7 @@ from faker import Faker
 
 class Edificio:
 
-    def __init__(self, pisos=10, columnas=6):
+    def __init__(self, pisos=120, columnas=20):
         self.fake = Faker()
         self.pisos = pisos
         self.columnas = columnas
