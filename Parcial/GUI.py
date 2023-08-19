@@ -74,7 +74,7 @@ class GUI:
         self.mostrar_estructura()
 
     def get_estructura_str(self):
-        return "\n".join(" ".join(str(piso) for piso in columna) for columna in
+        return "\n".join(" ".join(str(piso) for piso in columna) for columna in self.edificio.estructura)
 
     def mostrar_estructura(self):
         self.estructura_text.tag_configure("red", foreground="red")
