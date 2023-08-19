@@ -8,8 +8,6 @@ Simulacion simplme de un sistema de ascensores con interfaz grafica
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Ejemplos](#ejemplos)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Introducción
 
