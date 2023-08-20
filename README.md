@@ -25,6 +25,17 @@ pip install Faker
 sudo apt-get install python3-tk
 ````
 
+Aun asi se debera direccionar a la carpeta en donde se correra el programa y luego correrlo con los siguientes dos comandos:
+
+```sh
+cd .\Parcial\
+````
+
+```sh
+spython main.py
+````
+
+
 
 
 ## Uso
