@@ -5,7 +5,6 @@ from Usuario import Usuario
 from faker import Faker
 
 
-# unicodes para tkinter de rojo verde y azul:
 
 # Clase Edificio que contiene los ascensores y los usuarios del edificio y sus métodos para controlarlos y simularlos
 
@@ -25,8 +24,6 @@ class Edificio:
             "select_piso": f"El piso debe ser un número entero entre 1 y {self.pisos}",
             "valor_numerico": "Ingresa valores numéricos válidos",
             "ascensores_en_uso": "Todos los ascensores están en uso",
-            "usuario_en_uso": f"El usuario {self.get_usuario_actual().get_nombre()} aun no ha llegado a su destino ",
-            "usuario_en_destino": f"El usuario {self.get_usuario_actual().get_nombre()} ya se encuentra en el piso destino"
         }
 
     # getters
@@ -78,7 +75,7 @@ class Edificio:
         usuario_actual = self.get_usuario_actual()
         if usuario_actual.get_piso() == piso_destino and usuario_actual.get_estado():
             print(f"El usuario {usuario_actual} ya se encuentra en el piso destino")
-            return self.errores["usuario_en_destino"]
+            return f"El usuario {self.get_usuario_actual().get_nombre()} ya se encuentra en el piso destino"
 
         if usuario_actual.get_estado():
             piso_actual = usuario_actual.get_piso()
@@ -94,7 +91,7 @@ class Edificio:
             ascensor.set_estado(False)
             return "El ascensor más cercano es el número: " + str(ascensor.get_columna()) + "!"
         else:
-            return self.errores["usuario_en_uso"]
+            return f'El usuario {usuario_actual.get_nombre()} aun no ha llegado a su destino se encuentra en el ascensor {usuario_actual.get_ascensor().get_columna()}!'
 
     # Mueve el ascensor hacia arriba o hacia abajo según el recorrido restante
     def mover_ascensor(self, ascensor):
