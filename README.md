@@ -32,7 +32,7 @@ cd .\Parcial\
 ````
 
 ```sh
-spython main.py
+python main.py
 ````
 
 
