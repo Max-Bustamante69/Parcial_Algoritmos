@@ -12,9 +12,9 @@ class GUI:
         self.label = tk.Label(root, text="Control de Ascensores")
         self.label.pack()
 
-        self.piso_actual_label = tk.Label(root,
+        self.usuario_actual_label = tk.Label(root,
                                           text="Bienvenido al sistema de control de ascensores " + self.edificio.get_usuario_actual().get_nombre() + "!")
-        self.piso_actual_label.pack()
+        self.usuario_actual_label.pack()
 
         self.piso_destino_label = tk.Label(root, text="Piso Destino:")
         self.piso_destino_label.pack()
@@ -53,7 +53,7 @@ class GUI:
                 if self.edificio.verificar_piso(piso_destino):
                     messagebox.showinfo("Ascensor", self.edificio.pedir_ascensor(piso_destino))
                     self.piso_destino_entry.delete(0, tk.END)  # Limpiar la entrada de piso destino
-                    self.piso_actual_label["text"] = self.edificio.actualizar_usuarios()
+                    self.usuario_actual_label["text"] = self.edificio.actualizar_usuarios()
                     self.mostrar_estructura()
                 else:
                     messagebox.showerror("Error", self.edificio.errores["select_piso"])
