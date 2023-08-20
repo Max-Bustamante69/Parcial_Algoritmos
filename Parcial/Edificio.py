@@ -74,7 +74,7 @@ class Edificio:
         # sean números enteros y que existan en el edificio4
         usuario_actual = self.get_usuario_actual()
         if usuario_actual.get_piso() == piso_destino and usuario_actual.get_estado():
-            print(f"El usuario {usuario_actual} ya se encuentra en el piso destino")
+            print(f"El usuario {self.get_usuario_actual().get_nombre()} ya se encuentra en el piso destino")
             return f"El usuario {self.get_usuario_actual().get_nombre()} ya se encuentra en el piso destino"
 
         if usuario_actual.get_estado():
