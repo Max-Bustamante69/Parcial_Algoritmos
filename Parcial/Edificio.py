@@ -25,7 +25,7 @@ class Edificio:
             "select_piso": f"El piso debe ser un número entero entre 1 y {self.pisos}",
             "valor_numerico": "Ingresa valores numéricos válidos",
             "ascensores_en_uso": "Todos los ascensores están en uso",
-            "usuario_en_uso": "El usuario äun no ha llegado a su destino",
+            "usuario_en_uso": f"El usuario äun no ha llegado a su destino esta en el ascensor {self.get_usuario_actual().get_ascensor().get_columna()}",
             "usuario_en_destino": f"El usuario {self.get_usuario_actual().get_nombre()} ya se encuentra en el piso destino"
         }
 
