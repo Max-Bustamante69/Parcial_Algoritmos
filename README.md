@@ -44,6 +44,8 @@ El uso es bastante simple, una vez inicializada la aplicacion en la interfaz pod
 
 Si deseas simplemente correr la simulacion sera tan simple como presionar este boton, y en la consola se desarrollaran todos los 400 registros de los ascensores, ademas de que cuando este termine de ejecutar mostrara en el edificio impreso mas abjo el estado final de estey todos sus ascensores, si de lo contrario deseas ver como funcionan las peticiones manuales y la animacion del edificio, bastara con seleccionar un piso manualmente y presionar el boton 'Realzar Peticion'
 
+Para poder ver mejor el funcionamiento de la animacion se debera reducir el numero de pisos a un tamaño que pueda ser visto en toda la pantalla sin necesidad de hacer scroll, asi la estructura se actulizara en un rango cisible para el usuario.
+
 ## Ejemplos
 
 Puedes rapidamente seleccionar 2 destinos manualmente y ver como el edificio impreso abajo los 2 primeros ascensores realizan sus recorridos
